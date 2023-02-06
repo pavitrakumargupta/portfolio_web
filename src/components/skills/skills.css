@@ -1,0 +1,33 @@
+.skillspage{
+    padding: 0px;
+    margin: 0px;
+    min-height: max-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skillspage > h1{
+    margin: 0px 3rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5rem 5;
+    /* font-size: 80px; */
+}
+
+.skillspage > .skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 50px;
+    justify-content: space-evenly;
+    gap: 100px 10rem;
+}
+.skillspage > .skills>.skill{
+     width: 10rem;
+    height: 10rem;
+    /* background-color: grey; */
+}
+.skillspage > .skills>.skill:last-child{
+    width: 15rem;
+}
+ 
+.skillspage p ,li,a{
+    font-size: 20px;
+}

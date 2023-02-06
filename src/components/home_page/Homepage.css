@@ -1,0 +1,120 @@
+.home {
+  /* display: flex;
+  gap: 5rem 20rem;
+  flex-wrap: wrap; */
+  justify-content: center;
+  text-align: center;
+  /* background-image: url("../../assets/computer_image1.jpg"); */
+  /* background-size: 70%;
+  background-size: fit-content;
+  background-repeat: no-repeat;
+  background-position-x: center; */
+  min-width: 100vw;
+  
+  min-height: 65rem;
+  
+
+}
+.home >img{
+  /* position: relative; */
+  /* top: 10rem; */
+  /* width: 40%; */
+  margin-top: 7%;
+  width: 100%;
+  min-height: 65rem;
+ 
+  /* border-radius: 50000px;
+  max-width: 80%;
+  margin-bottom: 5rem; */
+  
+}
+div > .intro{
+  position: absolute;
+  left: 10%;
+  top: 15rem;
+  text-align: justify;
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 17rem;
+}
+div > .intro >button{
+  background-color: transparent;
+  
+  
+  width: fit-content;
+  height: fit-content;
+  padding: 0px;
+  border: none;
+  border-radius: 30px;
+} 
+div > .intro >button>a{
+  font-weight: 600;
+  margin: 0px;
+  padding: 10px  3rem;
+  font-size: 30px;
+  color: rgb(57, 56, 56);
+  border-radius: 30px;
+  border: 3px solid black;
+}
+div > .intro >button>a:hover {
+  
+  animation: btnAnimation 3s;
+  animation-fill-mode: left;
+}
+
+@keyframes btnAnimation {
+  from {left: 0px;}
+  to {left: 0px; background-color: rgb(0, 0, 0); color: white;}
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+  body {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center;
+    justify-content: center; */
+  }
+  
+  h1 {
+    
+    opacity: 2;
+    width: fit-content;
+    margin-right: 10px;
+  }
+  
+  @font-palette-values --Grays {
+    font-family: Rocher;
+    base-palette: 9;
+  }
+  
+  @font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+  
+  .grays {
+    font-palette: --Grays;
+  }
+  
+  .purples {
+    font-palette: --Purples;
+  }
+  
+  .mint {
+    font-palette: --Mint;
+  }
+  
