@@ -5,7 +5,7 @@ import profile from "../../assets/image.jpg"
 import Backgimage from "../../assets/computer_image1.jpg"
 const Homepage = () => {
   return (
-    <div className='home'>   
+    <div id='Home' className='home'>   
     <div className='intro'>
       
         <h1 class="purples">Hi I'am </h1>

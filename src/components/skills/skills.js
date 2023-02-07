@@ -9,7 +9,7 @@ import mongodb   from "../../assets/mongodb.webp"
 const skills = () => {
   const skills=[html,css,javascript,react,mongodb,node]
   return (
-    <div className='skillspage'>
+    <div id='Skills' className='skillspage'>
         <h1>Skills</h1>
         <div className='skills'>
             {skills.map(key=>(

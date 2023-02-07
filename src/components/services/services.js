@@ -3,16 +3,15 @@ import "./services.css"
 import {
   MDBCard,
   MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
+  MDBCardTitle, 
+  MDBCardText, 
   MDBCardImage,
-  MDBBtn,
-  MDBRipple
+  MDBBtn
 } from 'mdb-react-ui-kit';
 const services = () => {
   const projects=[1,2,3,4,5]
   return (
-    <div className='service'>
+    <div id='Projects' className='service'>
          <h1>Projects</h1>
          <div className='Projects'>
           {projects.map(key=>(

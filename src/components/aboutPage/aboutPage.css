@@ -1,6 +1,8 @@
 .about{
     padding: 0px;
     margin: 0px;
+    position: relative;
+    
 }
 .about > h1{
     text-align: justify;
@@ -19,8 +21,12 @@
     color: white;
     border-radius: 50px;
     text-align: center;
-    width: 60%;
+    width: 65%;
     margin: auto;
+    display: flex;
+   
+    
+    
 }
 .about >.field>.textfield>p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -28,7 +34,13 @@
     letter-spacing: 2px;
     line-height: 1.5;
     width: 70%;
-    
+    padding-right: 15%;
+}
+.about >.field>.textfield>img{
+    border-radius:55rem;
+    height: 450px;
+    margin: auto 1rem;
+
 }
 .about >.field>img{
     border-radius: 50px;
@@ -56,6 +68,11 @@
     .about >.field>.textfield{
         width: 95%;
         padding-bottom: 20%;
+        flex-wrap: wrap;
+    }
+    .about >.field>.textfield>img{
+        margin:auto;
+        margin-top: 30px;
     }
     .about >.field>.textfield>p{
         width: 95%;

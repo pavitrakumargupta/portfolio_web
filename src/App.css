@@ -2,5 +2,11 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 12rem;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 12rem;
+}
+
+ 

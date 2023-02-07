@@ -36,7 +36,7 @@
  
  @keyframes btnAnimation {
    from {left: 0px;}
-   to {left: 0px; background-color: rgb(66, 66, 66); color: white;}
+   to {left: 0px;  background-color: rgba(0,0,0,.5); color: white; border-bottom: 5px solid rgba(0,0,0,.3) ;}
  }
 
 .service > .Projects>.project>img{
