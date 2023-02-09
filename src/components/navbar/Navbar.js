@@ -2,46 +2,24 @@ import React, { useLayoutEffect, useRef,useState } from 'react'
 import Logo from "../../assets/logo.jpg"
 import "./navbar.css"
 import { TiThMenu} from "react-icons/ti";
+import { CgMenu, CgClose } from "react-icons/cg";
 const Navbar = () => {
-  
-
-   
-
-  const [fieldStyle,setfieldStyle]=useState({
-    fontSize: "22px",
-    color:"black",
-    borderBottom:"4px solid black",
-  })
-
+  const [menuIcon, setMenuIcon] = useState(false);
   const services=["Home","About","Skills","Projects"]
-  
-  const [fieldsnameStyle,setfieldnameStyle]=useState({
-    Home: fieldStyle,
-  })  
-
- 
-   
-
-  const hanndleClick=(event)=>{
-    const name=event.target.name;    
-    setfieldnameStyle(()=>{return{[name]:fieldStyle}})
-     
-  } 
-   
   return (
-    <nav   className='.nav'> 
+    <nav className={menuIcon ? 'nav active' : 'nav'}> 
       <img src={Logo} alt="" />
-      <div   className='pages'>
+      <div  className= 'pages'>
         {services.map(key=>{
           let url="#"+key
-          return(<a href={url}><button style={fieldsnameStyle[key]} onClick={hanndleClick} name={key}>{key}</button></a>)
+          return(<a href={url}><button onClick={() => setMenuIcon(false)} name={key}>{key}</button></a>)
         }
-          
         )}
-        
       </div>  
-      <TiThMenu name='menu' className='menu '/> 
-      
+      <div className="mobileMenuBtn">
+        <CgMenu className="mobileMenuIcon openMenuIcon" onClick={() => setMenuIcon(true)} />
+        <CgClose className="mobileMenuIcon closeMenuOutline" onClick={() => setMenuIcon(false)} />
+      </div>
     </nav>
     
   );
