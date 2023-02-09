@@ -1,7 +1,6 @@
-import React, { useLayoutEffect, useRef,useState } from 'react'
+import React, {useState } from 'react'
 import Logo from "../../assets/logo.jpg"
 import "./navbar.css"
-import { TiThMenu} from "react-icons/ti";
 import { CgMenu, CgClose } from "react-icons/cg";
 const Navbar = () => {
   const [menuIcon, setMenuIcon] = useState(false);
