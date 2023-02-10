@@ -50,7 +50,7 @@ nav > .pages >a > button{
      
     display: none;
 }
-@media only screen and (max-width: 927px) {
+@media only screen and (max-width: 875px) {
     nav{
         display: flex;
         justify-content: space-between;
