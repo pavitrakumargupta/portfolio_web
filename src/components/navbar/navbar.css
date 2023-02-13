@@ -2,15 +2,14 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0px 2rem;
-    gap: 7rem;
-    box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.1);
+    padding: 0px 1rem;
+    box-shadow: 0px 4px 4px rgba(168, 165, 165, 0.55);
     background-color: white;
     z-index: 1;
     position: fixed;
     max-width: 100vw;
     min-width: 100vw;
-    min-height: 8rem;
+    height: 6rem;
     padding-right: 20px;
 }
 nav >img{
@@ -21,7 +20,6 @@ nav >img{
 }
 nav > .pages{
     display: flex;
-     
     margin: auto 5rem;
     gap: 5rem;  
     
@@ -30,7 +28,7 @@ nav > .pages >a > button{
     background-color: transparent;
     border: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(78, 77, 77);
 }
  
@@ -50,7 +48,7 @@ nav > .pages >a > button{
      
     display: none;
 }
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 705px) {
     nav{
         display: flex;
         justify-content: space-between;
@@ -96,7 +94,7 @@ nav > .pages >a > button{
         position: absolute;
         padding-top: 70px;
         top: 0;
-        right: -50px;
+        right: -70px;
         background-color:  rgba(0,0,0,.5); 
         flex-direction: column;
         visibility: hidden;

@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const fieldStyle={
     borderBottom:"5px solid",
-    fontSize:"25px",
+    fontSize:"20px",
     marginTop:"-5px"
   }
   const [fieldsnameStyle,setfieldnameStyle]=useState({

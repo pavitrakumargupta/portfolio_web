@@ -17,9 +17,9 @@ const Homepage = () => {
             1000, // Waits 1s
             'Back-end Developer', // Deletes 'One' and types 'Two'
             2000, // Waits 2s
-            'MERN stack Developer', // Types 'Three' without deleting 'Two'
+            'MERN-stack Developer', // Types 'Three' without deleting 'Two'
             2000, 
-            'Full stack Developer',
+            'Full-stack Developer',
             2000,
             () => {
               console.log('Done typing!'); // Place optional callbacks anywhere in the array

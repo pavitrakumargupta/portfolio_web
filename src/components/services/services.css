@@ -3,7 +3,8 @@
     margin: 0px;
     min-height: max-content;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    position: relative;
+    top: -20rem;
 }
 .service > h1{
     text-align: justify;
@@ -15,12 +16,13 @@
     display: flex;
     flex-wrap: wrap;
     margin: 40px 50px;
-    justify-content: space-evenly;
-    gap: 100px 10rem;
+    justify-content: space-around;
+    gap: 100px 7rem;
 }
 .service > .Projects>.project{
-    width: 400px;
-    box-shadow: 10px 20px 30px 30px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 535px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     /* padding:10px; */
     color: rgb(48, 41, 41);
@@ -44,13 +46,19 @@
     border-radius: 50px;
     max-width: 100%;
     min-width: 100%;
-    height: 500px;
+    height: 60%;
     border-radius: 50px 50px 0px 0px;
 }
 .card_body{
-    margin: 10px;
+    margin:0px 10px;
+    margin-top: -30px;
 }
-.service p ,li,a{
+.service a{
     font-size: 20px;
 
+
+}
+.service p {
+    font-size: 17px;
+    margin-top: -30px;
 }

@@ -3,11 +3,11 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  gap: 12rem;
+  gap: 5rem;
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 12rem;
+  scroll-padding-top: 6rem;
 }
 
  

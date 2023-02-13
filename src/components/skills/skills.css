@@ -3,6 +3,8 @@
     margin: 0px;
     min-height: max-content;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -20rem;
 }
 .skillspage > h1{
     margin: 0px 3rem;
