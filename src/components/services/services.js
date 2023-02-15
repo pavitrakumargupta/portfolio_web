@@ -31,7 +31,7 @@ const services = () => {
       CodeLink:"https://github.com/pavitrakumargupta/Simon_Game_Challenge",
       Link:"https://pavitrakumargupta.github.io//Simon_Game_Challenge/simon-game/index.html"
     },{
-      ProjectTittle:"Simon_Game_Challenge",
+      ProjectTittle:"Drum Kit",
       definition:"Website to plays different kinds of musical instruments that ca entertain with sounds and can with diffrent sounds",
       ImageLink:"https://user-images.githubusercontent.com/88044814/218208097-b2fc5be8-d8ff-4dec-9426-0c4beebd50e4.png",
       CodeLink:"https://github.com/pavitrakumargupta/Drum_Kit_Sounds",
